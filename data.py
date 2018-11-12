@@ -30,7 +30,7 @@ class Employees:
 
     def __init__(self, employees):
         for employee in employees:
-            self._emp_dict[employee.name]] = employee
+            self._emp_dict[employee.name] = employee
 
     def get(self, name):
         try:
