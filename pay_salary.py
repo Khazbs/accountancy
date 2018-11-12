@@ -6,4 +6,5 @@ pupa = employees.get("Пупа")
 lupa_salary = salaries.get("Лупа")
 pupa_salary = salaries.get("Пупа")
 
-# TODO: pay salary
+lupa.pay(pupa_salary)
+pupa.pay(lupa_salary)
