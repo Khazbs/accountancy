@@ -18,7 +18,7 @@ class Salaries:
     def __init__(self, company_balance, salaries):
         self._company_balance = company_balance
         for salary in salaries:
-            self._sal_dict[salary.name]] = salary
+            self._sal_dict[salary.name] = salary
     
     def get(self, name):
         salary = self._sal_dict[name]
